@@ -1,0 +1,16 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;/*Tipo de fuente*/
+    font-size: large;/*Tamaño de fuente*/
+    color: black;/*Color*/
+    align-items: center;
+}
+
+.Tabla
+{
+    align-content: center; /*Centra el contenido de la tabla*/
+    width: 1250px; /*Determina el ancho de las filas*/
+    height: 160px; /*Determina la separación entre cada fila*/
+    border-style: groove; /*Es el borde que encierra a la tabla*/
+    margin: auto; /*Centra el contenido HTML*/
+}

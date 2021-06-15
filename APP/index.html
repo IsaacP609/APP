@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="estilo.css">
+    <title>Index - Principal</title>
+</head>
+<body>
+    <form id="form1" name="form1" method="POST" action="index.html"></form>
+
+    <h2><center>Capturar datos</center></h2><!-- Formulario -->
+    <br />
+    <label>
+    <center><input type="text" placeholder="Matricula"></center><br />
+    <center><input type="text" placeholder="Nombre"></center><br />
+    <center><input type="text" placeholder="Apellido paterno"></center><br />
+    <center><input type="text" placeholder="Apellido materno"></center><br />
+    <center><input type="submit" value="Enviar" action="Enviar"></center><br /><br />
+
+    <center>Seleccione su fecha de nacimiento<input type="date"></center><br /><br />
+
+    <center>¿Trabaja?<br /><br /> Si <input type="radio"> No <input type="radio"></center><br /><br />
+
+    <center>¿Cuántos idiomas habla? <input type="number"></center><br /><br />
+    
+    </label>
+
+    <div>
+        <table class = "Tabla">
+            <thead> <!-- Tabla para mostrar 3 registros y 4 columnas -->
+                <tr><!-- Columnas -->
+                    <th>Matrícula</th>
+                    <th>Nombre</th>
+                    <th>A. Paterno</th>
+                    <th>A. Materno</th>
+                </tr>
+            </thead>
+                <tr><!-- Filas -->
+                    <th>08999</th>
+                    <th>GORGONIO</th>
+                    <th>JOHANSON</th>
+                    <th>PÉREZ</th>
+                </tr>
+                <tr>
+                    <th>09001</th>
+                    <th>TARJA</th>
+                    <th>TEECE</th>
+                    <th>MORTEGA</th>
+                </tr>
+                <tr>
+                    <th>09001</th>
+                    <th>TARJA</th>
+                    <th>TEECE</th>
+                    <th>MORTEGA</th>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
